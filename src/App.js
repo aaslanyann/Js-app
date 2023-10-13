@@ -15,6 +15,7 @@ function App() {
         {id: 3, title: "JavaScript 3", body: "Description"},
         {id: 4, title: "JavaScript 4", body: "Description"}
     ])
+    console.log('hello')
 
     const [filter, setFilter] = useState({sort: '', query: ''})
 
